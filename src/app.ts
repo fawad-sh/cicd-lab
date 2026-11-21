@@ -9,6 +9,7 @@ app.get('/', (_request, response) => {
     <h1>CI/CD Lab</h1>
     <p>The application is running.</p>
     <p>Version ${version}</p>
+    <p><b>Verified by the GitHub Actions</b>. Deployed on Render.</p>
   `);
 });
 
