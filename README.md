@@ -1,6 +1,6 @@
 # Automated CI/CD Pipeline & TypeScript Service
 
-A production-structured Node.js, Express, and TypeScript service demonstrating automated Continuous Integration (CI) quality gates, DevSecOps least-privilege permissions, deterministic dependency management, and continuous deployment to Render.
+An Express and TypeScript service featuring automated CI/CD quality gates via GitHub Actions and continuous deployment to Render.
 
 ## Key Engineering & DevOps Highlights
 
@@ -41,23 +41,6 @@ This repository demonstrates core CI/CD and operational stability practices impl
   └───────────────────────────┘
 ```
 
-## Tech StackRuntime & Language: 
-* Node.js 24, TypeScript, ExpressCI/CD & Automation: 
-* GitHub Actions (actions/checkout, actions/setup-node)
-* Testing & Quality: Automated integration testing (self-contained server lifecycle), static type checking (tsc)
-* Cloud Hosting: Render (PaaS)
-
-## Local Development & Verification
-Prerequisites
-* Node.js 24+ and npm
-* Git
-### Setup
-```text
-Bash
-git clone [https://github.com/fawadirfan/cicd-lab.git](https://github.com/fawadirfan/cicd-lab.git)
-cd cicd-lab
-npm ci
-```
 ## Tech Stack
 
 * **Runtime & Language:** Node.js 24, TypeScript, Express
@@ -82,7 +65,7 @@ npm ci
 ### Available Scripts
 | Command | Purpose |
 | --- | --- |
-| pm run verify | CI Quality Gate: Runs typechecking, automated tests, and production build validation |
+| npm run verify | CI Quality Gate: Runs typechecking, automated tests, and production build validation |
 | npm run dev | Starts the local development server with hot-reload on port 3000.|
 | npm test | Spins up an isolated server instance, executes /api/health integration tests, and tears down cleanly |
 | npm run build | Compiles TypeScript source files into production-ready JavaScript in dist/ |
@@ -97,6 +80,6 @@ JSON{
 }
 ```
 ### Author
-Fawad I Sheikh - nterprise Integration & Cloud Solution Architect
+**Fawad I Sheikh - Enterprise Integration & Cloud Solution Architect**
 
 Specializing in cloud-native transformation, automated CI/CD pipelines, distributed integration architectures, and high-availability enterprise systems.
